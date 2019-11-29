@@ -1,0 +1,171 @@
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+:root {
+    --primaryBlue: #08A6E4;
+    --primaryRed: #FB3B64;
+    --primaryGreen: #55DFB4;
+    --primaryGray: #A5A5A5;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    min-width: 1352px;
+    margin: 0 auto;
+}
+
+/*
+ * HEADER
+ */
+
+.header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+
+.header__logo {
+    font-family: 'Raleway', serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: var(--primaryBlue);
+    text-decoration: none;
+}
+
+.nav__items {
+    display: flex;
+}
+
+.nav__item {
+    margin-left: 75px;
+    height: 70px;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+.nav__item--link {
+    height: 70px;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--primaryGray);
+    font-family: 'Open Sans', serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: .2s;
+
+}
+
+.nav__item:hover .nav__item--link {
+    color: black
+}
+
+.nav__item:hover {
+    border-bottom: 3px solid var(--primaryBlue);
+}
+
+/*
+ * MAIN
+ */
+
+.main {
+    height: 800px;
+    background-image: url("../assets/Background.png");
+    background-repeat: no-repeat;
+    width: 100%;
+
+    background-position: center;
+}
+
+.main__intro {
+    margin-top: 100px;
+}
+
+.intro__info {
+    text-align: center;
+}
+
+.intro__heading {
+    font-family: 'Raleway', serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.intro__small--heading {
+    font-family: 'Open Sans', serif;
+    font-size: 16px;
+    margin-bottom: 38px;
+}
+
+.intro__btn {
+    font-family: 'Open Sans', serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 22px 150px;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border: none;
+    border-radius: 40px;
+    background-color: var(--primaryBlue);
+    color: white;
+}
+
+/*
+ * SECTION : STATISTICS
+ */
+
+.statistics {
+    height: 530px;
+    text-align: center;
+}
+
+.statistics__heading {
+    font-size: 36px;
+    font-family: 'Raleway', serif;
+}
+
+.statistics__items {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 290px;
+    margin: 100px 50px 0 50px;
+}
+
+.img__container {
+
+}
+
+.item__img {
+    margin-bottom: 18px;
+
+.photo {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+}
+
+}
+.item__number {
+    font-family: 'Raleway', serif;
+    font-weight: 800;
+    margin-bottom: 22px;
+    font-size: 20px;
+}
+
+.item__info {
+    font-family: 'Raleway', serif;
+    font-size: 16px;
+    color: var(--primaryGray);
+
+}

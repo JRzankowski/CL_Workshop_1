@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86.216" height="63" viewBox="0 0 86.216 63">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="65.432" height="36.5" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_11" data-name="Group 11" transform="translate(-770 -1155)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="31.5" cy="31.5" r="31.5" transform="translate(770 1155)" fill="#08a6e4"/>
+    <g id="Eye" transform="translate(790.784 1169.25)" clip-path="url(#clip-path)">
+      <path id="Path_249" data-name="Path 249" d="M66.39,20.5S53.569,37,35.89,37,5.39,20.5,5.39,20.5,18.211,4,35.89,4,66.39,20.5,66.39,20.5Z" transform="translate(-3.174 -2.25)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="3.5"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="12.5" cy="12.5" r="12.5" transform="translate(20.216 5.745)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="3.5"/>
+      <path id="Path_250" data-name="Path 250" d="M111.232,49.344a4.5,4.5,0,1,1,2.118-3.825v.127" transform="translate(-76.508 -27.384)" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.5"/>
+    </g>
+  </g>
+</svg>
